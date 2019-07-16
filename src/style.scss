@@ -1,5 +1,40 @@
 .container {
-    width: 35%;
-    height: 500px;
+    width: 400px;
+    height: 600px;
     background: #BB1233;
+
+    .logo-container {
+        height: 65px;
+        display: flex;
+        align-items: center;
+
+        .logo {
+            max-width: 100px;
+            margin-left: 1rem;
+        }
+    }
+
+    .display {
+        width: 85%;
+        height: 80px;
+        margin: 0 auto;
+        background: #2D2829;
+        border-radius: 30px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        .display-value {
+            color: white;
+            font-size: 2.5rem;
+            margin-right: 1rem;
+        }
+    }
+
+    button {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        border: none;
+    }
 }
