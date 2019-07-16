@@ -12,12 +12,13 @@
 
     .logo-container {
         height: 65px;
+        width: 90%;
+        margin: 0 auto;
         display: flex;
         align-items: center;
 
         .logo {
             max-width: 100px;
-            margin-left: 1rem;
         }
     }
 
@@ -26,7 +27,7 @@
         height: 80px;
         margin: 0 auto;
         background: #2D2829;
-        border-radius: 30px;
+        border-radius: 50px;
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -73,6 +74,11 @@
             
             button {
                 background: #113C78;
+            }
+
+            .zero-btn {
+                width: 160px;
+                border-radius: 50px;
             }
         }
 
